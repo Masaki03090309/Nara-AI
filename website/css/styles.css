@@ -488,16 +488,32 @@ body {
 
 /* Gallery Page Styles */
 .gallery-hero {
+    position: relative;
     padding: 200px 40px 100px;
     text-align: center;
+    background: url('../images/hero-santorini.jpg') center/cover no-repeat;
+}
+
+.gallery-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
 }
 
 .gallery-hero h1 {
+    position: relative;
+    z-index: 2;
     font-family: var(--font-garamond);
     font-size: 80px;
     font-weight: 400;
     line-height: 1.1;
     letter-spacing: -1.6px;
+    color: var(--color-white);
 }
 
 .gallery-section {
@@ -547,15 +563,31 @@ body {
 
 /* Information Page Styles */
 .info-hero {
+    position: relative;
     padding: 200px 40px 100px;
+    background: url('../images/hero-santorini.jpg') center/cover no-repeat;
+}
+
+.info-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
 }
 
 .info-hero h1 {
+    position: relative;
+    z-index: 2;
     font-family: var(--font-garamond);
     font-size: 80px;
     font-weight: 400;
     line-height: 1.1;
     letter-spacing: -1.6px;
+    color: var(--color-white);
 }
 
 .info-section {
