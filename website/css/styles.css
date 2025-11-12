@@ -926,7 +926,7 @@ body {
     }
 
     .philosophy-item h2 {
-        font-size: 32px !important;
+        font-size: 42px !important;
     }
 
     .philosophy-item p {
@@ -1002,7 +1002,7 @@ body {
 
     /* Mission/Vision/Values section */
     .philosophy-item h2 {
-        font-size: 20px !important;
+        font-size: 28px !important;
         margin-bottom: 20px !important;
     }
 
@@ -1011,7 +1011,7 @@ body {
     }
 
     .values-heading {
-        font-size: 16px !important;
+        font-size: 28px !important;
         padding: 0 10px !important;
         letter-spacing: -0.5px !important;
     }
@@ -1167,11 +1167,11 @@ body {
     }
 
     .philosophy-item h2 {
-        font-size: 18px !important;
+        font-size: 24px !important;
     }
 
     .values-heading {
-        font-size: 16px !important;
+        font-size: 24px !important;
         padding: 0 5px !important;
         letter-spacing: -0.5px !important;
     }
@@ -1220,22 +1220,22 @@ body {
 /* iPhone 12 Pro, iPhone 15 and similar (376px - 400px) */
 @media (max-width: 400px) and (min-width: 376px) {
     .values-heading {
-        font-size: 14px !important;
+        font-size: 22px !important;
         padding: 0 5px !important;
-        letter-spacing: -0.8px !important;
+        letter-spacing: -0.5px !important;
     }
 }
 
 /* iPhone SE and smaller */
 @media (max-width: 375px) {
     .values-heading {
-        font-size: 14px !important;
+        font-size: 22px !important;
         padding: 0 5px !important;
-        letter-spacing: -0.8px !important;
+        letter-spacing: -0.5px !important;
     }
 
     .philosophy-item h2 {
-        font-size: 16px !important;
+        font-size: 22px !important;
     }
 
     .info-hero h1 {
