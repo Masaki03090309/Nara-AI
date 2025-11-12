@@ -1217,8 +1217,8 @@ body {
     }
 }
 
-/* iPhone 12 Pro and similar (376px - 390px) */
-@media (max-width: 390px) and (min-width: 376px) {
+/* iPhone 12 Pro, iPhone 15 and similar (376px - 400px) */
+@media (max-width: 400px) and (min-width: 376px) {
     .values-heading {
         font-size: 14px !important;
         padding: 0 5px !important;
